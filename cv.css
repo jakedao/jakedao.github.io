@@ -1,0 +1,141 @@
+#root {
+  background-color: rgb(255, 253, 242);
+  color: #00539cff;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.spacing-b-normal {
+  margin-bottom: 1rem;
+}
+
+.vstack {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.hstack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-wrapper {
+  background-color: #eea47fff;
+  color: white;
+  height: 200px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 55vw;
+  height: 100%;
+}
+
+.header-name {
+  font-size: 40px;
+}
+
+.sub-header {
+  /* margin-right: 30px; */
+}
+
+.logo-wrapper {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 65vw;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  background-color: rgb(247, 153, 107);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.section-detail {
+  width: 80%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 300px;
+  z-index: 9999;
+  height: 100%;
+  right: 10vw;
+  top: 0;
+  background-color: rgb(172, 61, 42);
+  color: rgb(255, 253, 242);
+  display: flex;
+  position: fixed;
+  flex-flow: column wrap;
+  align-items: start;
+  padding: 10px;
+}
+
+.info-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.image-wrapper {
+  width: 180px;
+  height: 180px;
+  border-radius: 9999px;
+  box-shadow: 3px 3px 3px rgb(121, 120, 120);
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.timeline {
+  color: rgb(145, 145, 145);
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+}
