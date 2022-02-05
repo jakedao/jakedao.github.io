@@ -1,6 +1,7 @@
-#root {
-  background-color: rgb(255, 253, 242);
-  color: #00539cff;
+body {
+  background-color: rgb(253, 248, 230);
+  margin: 0;
+  padding: 10px;
 }
 
 .heading {
@@ -16,6 +17,10 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
+}
+
+.divider-x {
+  border-bottom: 1px dashed rgb(196, 196, 196);
 }
 
 .hstack {
@@ -83,18 +88,17 @@
 }
 
 .info {
-  width: 300px;
   z-index: 9999;
   height: 100%;
-  right: 10vw;
+  right: 15vw;
   top: 0;
-  background-color: rgb(172, 61, 42);
+  background-color: rgb(197, 97, 79);
   color: rgb(255, 253, 242);
   display: flex;
   position: fixed;
-  flex-flow: column wrap;
+  flex-flow: column;
   align-items: start;
-  padding: 10px;
+  padding: 2rem;
 }
 
 .info-detail {
@@ -135,7 +139,9 @@
   font-weight: bold;
 }
 
-body {
-  margin: 0;
-  padding: 10px;
+@media screen and (max-width: 400px) {
+  .info {
+    position: relative;
+    right: 0;
+  }
 }
